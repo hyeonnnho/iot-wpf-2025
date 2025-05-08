@@ -1,0 +1,16 @@
+﻿using MahApps.Metro.Controls;
+
+namespace WpfBasicApp02
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : MetroWindow
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+        // 디자인적인 이벤트나 메서드는 추가되지만 개발자나 DB나 비지니스 로직 관련된 소스는 한줄도 안들어감
+    }
+}
