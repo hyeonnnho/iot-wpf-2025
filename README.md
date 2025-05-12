@@ -148,16 +148,18 @@ IoT 개발자 WPF 학습리포지토리 2025
 - 종류
     - `Prism` : MS계열에서 직접 개발. 대규모 앱 개발 시 사용. 모듈화 잘 되어있음. 커뮤니티 활발
         - 진입장벽 높음
-    - **Caliburn.Micro** : 경량화된 프레임워크. 쉽게 개발할 수 있음. Xamll 바인딩 생략 가능. 커뮤니티 감소하는 추세.
+    - `Caliburn.Micro` : 경량화된 프레임워크. 쉽게 개발할 수 있음. Xamll 바인딩 생략 가능. 커뮤니티 감소하는 추세.
         - [공식사이트](https://caliburnmicro.com/)
         - [Github](https://github.com/Caliburn-Micro/Caliburn.Micro)
         - MahApps.Metro에서 사용 중
         - 디버깅이 어려움
+        - [문제]MahApps.Metro의 메시지박스 다이얼로그 구현이 안됨!
     - `MVVM Light Toolkit` : 가장 가벼운 MVVM 입문용. 쉬운 Command 지원. 개발 종료.
         - 확장성이 떨어짐
-    - CommunityToolkit.Mvvm : MS 공식 경량 MVVM. 단순, 빠르고, 커뮤니티 매우 활발
+    - **CommunityToolkit.Mvvm** : MS 공식 경량 MVVM. 단순, 빠르고, 커뮤니티 매우 활발
+        - NotifyPropertyChanged를 사용할 필요가 없음
         - 모듈 기능이 없음
-    - `ReactiveUI` : Rx기반 MVVM. 비동기, 스트림처리 강력. 커뮤니티가 활발.
+    - `ReactiveUI` : 최신기술 Rx기반 MVVM. 비동기, 스트림처리 강력. 커뮤니티가 활발.
         - 진입장벽이 높음
 
 ### Caliburn.Micro 학습
@@ -189,4 +191,75 @@ IoT 개발자 WPF 학습리포지토리 2025
 
 ## 3일차
 
+### CommunityToolkit.Mvvm 다시
+1. Wpf 프로젝트 생성
+2. 필요 라이브러리 설치
+    - CommunityToolkit.Mvvm
+    - MahApps.Metro
+    - MahApps.Metro.IconPacks
+3. Models, View, ViewModels 폴더 생성
+4. MainWindow.xaml 삭제
+5. App.xaml에서 StartupUri 삭제
+6. Views/MainView.xaml 생성
+7. ViewModels/MainViewModel.cs 생성
+8. App.xaml Startup 이벤트 추가
+    - App.xaml.cs 로직 추가
+9. App.xaml MahApps.Metro 관련 리소스 추가
+10. MainView에 MetroWindow로 변경
+
+    <img src="./image/wpf0008.png" width="600">
+
+### Log 라이브러리
+- 개발한 앱, 솔루션의 현재 상태를 계속 모니터링하는 기능
+- Log 사용법
+    - 직접 코딩방식
+    - 로그 라이브러리 사용방식
+- Log 라이브러리
+    - NLog : 가볍고 쉽다. 빠름, 데스크톱
+    - Serilog : 어려운 편, 빠름, 웹쪽
+    - Log4net : Java의 로그를 .NET로 이전. 느림, 웹쪽
+    - Zloggger : 제일 최신(2021년), 초고속, 게임서버
+
+### NLog 라이브러리 사용
+1. NuGet패키지 > NLog, NLog.Schema 설치
+2. 새항목 > 데이터 > XML파일 > NLog.config 생성
+3. Info < `Debug` < Warning < Error (level 순서)
+4. `NLog.config`를 출력 디렉토리로 복사 > 항상 복사
+5. Debug, Trace는 출력이 안됨
+6. Info, Warn, Error, Fatal을 사용
+
+    <img src="./image/wpf0009.png" width="600">
+
 ### DB연결 CRUD 연습
+1. WPF 프로젝트 생성
+2. NuGet 패키지 필요 라이브러리 설치
+    - CommunityToolkit.Mvvm
+    - MahApps.Metro
+    - MahApps.Metro.IconPacks
+    - MySql.Data
+    - NLog
+3. Models, View, ViewModels 폴더 생성
+4. App.xaml 초기화 작업
+5. MainView.xaml, MainViewModel 메인화면 MVVM 작업
+    - 메뉴작업
+    - ContentControl 추가
+6. 하위 사용자 컨트롤 작업
+    - BookGenre(View, ViewModel)
+    - Books(View, ViewModel)
+7. Models > Genre(DivisionTbl) 모델 작업
+8. BookGenreViewModel DB처리 구현
+
+
+
+## 4일차
+
+### DB연결 CRUD 연습 (계속)
+1. 
+
+#### DB연결 CRUD 연습 시 추가 필요사항
+- [ ] NLog로 각 기능 동작 시 로그 남기기, 공통화 작업
+- [ ] DB쿼리 모델로 이전
+- [ ] 연결문자열 Common으로 이전
+- [ ] MahApps.Metro 메시지 형태로 변경
+- [ ] 삭제여부 메시지박스 추가
+- [ ] 종료 메뉴아이템 
