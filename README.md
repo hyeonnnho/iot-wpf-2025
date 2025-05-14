@@ -343,9 +343,7 @@ https://github.com/user-attachments/assets/ff00ca33-d6d9-4cf6-9664-9826c60fe1a0
 10. 실행 시 텍스트 박스에 포커스 가도록 처리
 
 
-
-    https://github.com/user-attachments/assets/a975a4c0-04b4-424b-9a52-745f6f9a46c2
-
+https://github.com/user-attachments/assets/4b6bb5af-1be7-4b67-a6a2-7d3f6d4a836a
 
 
 ## 6일차
