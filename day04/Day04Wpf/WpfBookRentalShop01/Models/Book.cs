@@ -9,9 +9,9 @@ namespace WpfBookRentalShop01.Models
         private string _dnames;
         private string _names;
         private string _author;
-        private string _releasedate;
+        private DateTime _releasedate;
         private string _isbn;
-        private string _price;
+        private int _price;
 
         public int Idx {
             get => _idx;
@@ -33,7 +33,7 @@ namespace WpfBookRentalShop01.Models
             get => _author;
             set => SetProperty(ref _author, value);
         }
-        public string Releasedate {
+        public DateTime Releasedate {
             get => _releasedate; 
             set => SetProperty(ref _releasedate, value);
         }
@@ -41,7 +41,7 @@ namespace WpfBookRentalShop01.Models
             get => _isbn;
             set => SetProperty(ref _isbn, value);
         }
-        public string Price {
+        public int Price {
             get => _price;
             set => SetProperty(ref _price, value);
         }

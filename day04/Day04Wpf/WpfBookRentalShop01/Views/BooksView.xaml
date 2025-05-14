@@ -58,11 +58,10 @@
                                    mah:TextBoxHelper.WatermarkAlignment="Left"
                                    Value="{Binding SelectedBook.Idx}"/>
 
-                <ComboBox Grid.Row="1" Margin="3"
-                          SelectedValuePath="Key"
-                          DisplayMemberPath="Value"
+                <TextBox Grid.Row="1" Margin="3"
+                         mah:TextBoxHelper.AutoWatermark="True"
                           mah:TextBoxHelper.Watermark="장르"
-                          SelectedValue="{Binding SelectedBook.DNames}"/>
+                          Text="{Binding SelectedBook.DNames}"/>
 
                 <TextBox Grid.Row="2" Margin="3"
                            mah:TextBoxHelper.AutoWatermark="True"
@@ -74,7 +73,8 @@
                          Text="{Binding SelectedBook.Author}"/>
                 <TextBox Grid.Row="4" Margin="3"
                            mah:TextBoxHelper.AutoWatermark="True"
-                           mah:TextBoxHelper.Watermark="ISBN"/>
+                           mah:TextBoxHelper.Watermark="ISBN"
+                         Text="{Binding SelectedBook.ISBN}"/>
                 <DatePicker Grid.Row="5" Margin="3"
                             mah:TextBoxHelper.AutoWatermark="True"
                             mah:TextBoxHelper.Watermark="출판일"

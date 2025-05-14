@@ -65,7 +65,7 @@ namespace WpfBookRentalShop01.ViewModels
         public void ShowBookGenre()
         {
             var vm = new BookGenreViewModel(Common.DIALOGCOORDINATOR);
-            var v = new BookGenreView()
+            var v = new BookGenreView
             {
                 DataContext = vm
             };
@@ -79,7 +79,7 @@ namespace WpfBookRentalShop01.ViewModels
         public void ShowBooks()
         {
             var vm = new BooksViewModel(Common.DIALOGCOORDINATOR);
-            var v = new BooksView()
+            var v = new BooksView
             {
                 DataContext = vm
             };
@@ -93,7 +93,7 @@ namespace WpfBookRentalShop01.ViewModels
         public void ShowMembers()
         {
             var vm = new MembersViewModel(Common.DIALOGCOORDINATOR);
-            var v = new MembersView()
+            var v = new MembersView
             {
                 DataContext = vm
             };
@@ -107,7 +107,7 @@ namespace WpfBookRentalShop01.ViewModels
         public void ShowRentals()
         {
             var vm = new RentalsViewModel(Common.DIALOGCOORDINATOR);
-            var v = new RentalsView()
+            var v = new RentalsView
             {
                 DataContext = vm
             };

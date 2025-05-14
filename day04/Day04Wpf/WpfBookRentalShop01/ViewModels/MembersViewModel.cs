@@ -13,7 +13,6 @@ namespace WpfBookRentalShop01.ViewModels
         private readonly IDialogCoordinator dialogCoordinator;  // MainViewModel과 동일
 
         private ObservableCollection<Member> _members;
-
         public ObservableCollection<Member> Members
         {
             get => _members;
