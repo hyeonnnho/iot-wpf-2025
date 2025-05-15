@@ -363,7 +363,7 @@ https://github.com/user-attachments/assets/4b6bb5af-1be7-4b67-a6a2-7d3f6d4a836a
     2. WPF 기본 WebBrowser는 HTML5 기술이 표현 안됨. 오류가 많음
     3. NuGet 패키지 - CefSharp WebBrowser 패키지 설치
     4. CefSharp.Wpf 설치 시 프로젝트 속성 > 빌드 > 일반, 플랫폼 대상을 Any CPU에서 x64로 변경 
-    5. NuGet 패키지 -> Google.Apis. youtube c3설치
+    5. NuGet 패키지 -> Google.Apis. youtube v3설치
 
 6. 기타 작업 완료
 7. 결과 화면
