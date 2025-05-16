@@ -368,7 +368,19 @@ https://github.com/user-attachments/assets/4b6bb5af-1be7-4b67-a6a2-7d3f6d4a836a
 6. 기타 작업 완료
 7. 결과 화면
 
- 
 
 https://github.com/user-attachments/assets/186817de-f40c-4310-acae-7a0c52fa41d4
 
+
+## 7일차
+
+### 부산광역시 부산맛집 정보앱
+1. [데이터포털](https://data.go.kr) OpenAPI 신청
+2. WPF 프로젝트 생성
+3. NuGet 패키지 라이브러리 설치
+    - CommunityToolkit.MVVM
+    - MahApps.Metro/ MahApps.Metro.IconPacks
+    - Newtonsoft.Json
+    - CefSharp.Wpf.NetCore (플랫폼 x64로 변경!)
+    - Nlog
+3. MVVM 초기화
