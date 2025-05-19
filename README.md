@@ -389,3 +389,7 @@ https://github.com/user-attachments/assets/186817de-f40c-4310-acae-7a0c52fa41d4
 4. MVVM 초기화
 5. UI 디자인 및 구현
 
+
+
+https://github.com/user-attachments/assets/f4d82909-dacd-43c4-a8c8-7250a00b2f07
+
