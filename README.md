@@ -404,3 +404,18 @@ https://github.com/user-attachments/assets/f4d82909-dacd-43c4-a8c8-7250a00b2f07
 
 https://github.com/user-attachments/assets/bf265637-da43-4dfe-b033-79005346471c
 
+
+### 스마트홈 연동 모니터링앱
+
+<img src="./image/wpf0022.jpg" width="650">
+
+- 전면부
+
+<img src="./image/wpf0023.jpg" width="650">
+
+- 후면부
+
+- [개발링크](https://github.com/hugoMGSung/hungout-with-arduino/tree/main/SmartHomeDIY)
+
+1. Arduino + Raspberry Pi 스마트홈 기제작
+2. MQTT 데이터전송 기술
