@@ -376,6 +376,9 @@ https://github.com/user-attachments/assets/186817de-f40c-4310-acae-7a0c52fa41d4
 
 ### 부산광역시 부산맛집 정보앱
 1. [데이터포털](https://data.go.kr) OpenAPI 신청
+
+    <img src="./image/wpf0020.png" width="650">
+
 2. WPF 프로젝트 생성
 3. NuGet 패키지 라이브러리 설치
     - CommunityToolkit.MVVM
@@ -383,4 +386,6 @@ https://github.com/user-attachments/assets/186817de-f40c-4310-acae-7a0c52fa41d4
     - Newtonsoft.Json
     - CefSharp.Wpf.NetCore (플랫폼 x64로 변경!)
     - Nlog
-3. MVVM 초기화
+4. MVVM 초기화
+5. UI 디자인 및 구현
+
