@@ -532,8 +532,7 @@ https://github.com/user-attachments/assets/9809bb9e-49f0-40ae-8fec-5a339b1fcd0d
 - 실행화면
 
 
-https://github.com/user-attachments/assets/0b7f2946-953e-47ec-84e8-126cf3dced18
-
+https://github.com/user-attachments/assets/3058eb73-8270-4d21-9692-a8ac6cf2cf77
 
 
     - 스마트홈 조작영상
