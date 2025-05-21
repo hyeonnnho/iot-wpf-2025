@@ -452,7 +452,11 @@ https://github.com/user-attachments/assets/bf265637-da43-4dfe-b033-79005346471c
     - CONNECT
 5. VS Code에서 MqttPub.py 파일 생성
 
-영상
+
+
+https://github.com/user-attachments/assets/53bbffde-1701-4bc6-bf88-e2d053c1f97d
+
+
 
 ### 스마트홈 프로젝트 시작
 1. 화면 UI 변경
@@ -495,7 +499,11 @@ https://github.com/user-attachments/assets/bf265637-da43-4dfe-b033-79005346471c
 5. WPF MVVM 전체구현
 6. MqttPub.py와 Publish된 IoT데이터 WPF에서 Subscribe 예제
 
-영상
+
+
+https://github.com/user-attachments/assets/9809bb9e-49f0-40ae-8fec-5a339b1fcd0d
+
+
 
 ## 10일차
 #### 스마트홈 연동 모니터링앱(계속)
